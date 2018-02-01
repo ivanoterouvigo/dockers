@@ -8,9 +8,17 @@ your-machine~$ docker
 
 Usage:	docker COMMAND
 
-A self-sufficient runtime for containers
+* Docker compose 
+## Installation
 
-# Options:
+1. Get the latest version of git:
+
+```
+sudo apt-get install git
+```
+
+## Options:
+```
       --config string      Location of client config files (default "/home/ivanotero/.docker")
   -D, --debug              Enable debug mode
       --help               Print usage
@@ -22,10 +30,12 @@ A self-sufficient runtime for containers
       --tlskey string      Path to TLS key file (default "/home/ivanotero/.docker/key.pem")
       --tlsverify          Use TLS and verify the remote
   -v, --version            Print version information and quit
-  
+```
   
 
-# Management Commands:
+## Management Commands:
+
+```
   checkpoint  Manage checkpoints
   config      Manage Docker configs
   container   Manage containers
@@ -39,8 +49,11 @@ A self-sufficient runtime for containers
   swarm       Manage Swarm
   system      Manage Docker
   volume      Manage volumes
+```
+
+  ## Commands:
   
-  # Commands:
+```
   attach      Attach local standard input, output, and error streams to a running container
   build       Build an image from a Dockerfile
   commit      Create a new image from a container's changes
@@ -82,7 +95,8 @@ A self-sufficient runtime for containers
   update      Update configuration of one or more containers
   version     Show the Docker version information
   wait        Block until one or more containers stop, then print their exit codes
+```
 
-# Run 'docker COMMAND --help' for more information on a command.
+## Run 'docker COMMAND --help' for more information on a command.
 
 

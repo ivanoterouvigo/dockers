@@ -8,15 +8,6 @@ your-machine~$ docker
 
 Usage:	docker COMMAND
 
-* Docker compose 
-## Installation
-
-1. Get the latest version of git:
-
-```
-sudo apt-get install git
-```
-
 ## Options:
 ```
       --config string      Location of client config files (default "/home/ivanotero/.docker")

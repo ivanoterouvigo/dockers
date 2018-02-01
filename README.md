@@ -91,3 +91,24 @@ Usage:	docker COMMAND
 ## Run 'docker COMMAND --help' for more information on a command.
 
 
+## Some examples of use command line docker.
+
+* Example 1
+```
+  sudo docker exec app-server ls 
+```
+
+* Example 2
+```
+  sudo docker exec -it app-server bash 
+```
+
+* Example 3
+```
+  sudo docker exec app-server ls 
+```
+
+* Example 4
+```
+  sudo docker exec app-server ls 
+```

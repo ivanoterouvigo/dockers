@@ -93,6 +93,11 @@ Usage:	docker COMMAND
 
 ## Some examples of use command line docker.
 
+* List all docker images
+```
+  sudo docker ps -a 
+```
+
 * Example 1
 ```
   sudo docker exec app-server ls 

@@ -112,13 +112,3 @@ Usage:	docker COMMAND
 ```
   sudo docker exec -it app-server bash 
 ```
-
-* Example 3
-```
-  sudo docker exec app-server ls 
-```
-
-* Example 4
-```
-  sudo docker exec app-server ls 
-```

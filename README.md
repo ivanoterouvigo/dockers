@@ -98,6 +98,11 @@ Usage:	docker COMMAND
   sudo docker ps -a 
 ```
 
+* Show the logs of docker images
+```
+  sudo docker-compose logs
+```
+
 * Example 1
 ```
   sudo docker exec app-server ls 
